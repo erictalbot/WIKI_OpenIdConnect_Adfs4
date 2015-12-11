@@ -1,0 +1,14 @@
+﻿<script>
+    function callRemoteAPI()
+    {
+        $.ajax({
+            url: "https://localhost:44320/api/values",
+            context: document.body
+        }).done(function(data) {
+            alert(data);
+        });
+        alert('completed');
+    }
+</script>
+
+<button onclick="callRemoteAPI()">CallTheAPI</button><br />

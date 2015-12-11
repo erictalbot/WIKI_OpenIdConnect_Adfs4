@@ -1,0 +1,10 @@
+*.cache
+*.suo
+*.db
+*.csproj.user
+*.pdb
+*.force
+/ui/bin/
+/ui/obj/
+/api/bin
+/api/obj
